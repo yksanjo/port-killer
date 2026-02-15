@@ -1,0 +1,19 @@
+{
+  "name": "port-killer",
+  "version": "1.0.0",
+  "description": "Kill processes occupying specific ports with force and safety features",
+  "main": "src/index.js",
+  "bin": {
+    "port-killer": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["port", "kill", "process", "devtools"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0"
+  }
+}
